@@ -1,16 +1,9 @@
-# qb-benny
-Radial Menu Benny Repair made for Gabz Hub
+# Icarus-Repair
+Updated Radial-menu repair script for QBOX and OX Radial
+
+## CREDIT TO JAY-FIVEM FOR ORIGINAL SCRIPT
+https://github.com/jay-fivem
 
 ## Info
-**[edited qb-radialmenu](https://github.com/jay-fivem/qb-radialmenu)**
-- Used for qb-radialmenu
-## or add these into your qb-radialmenu/client/main.lua
-```
-exports('AddOption', function(id, data)
-    Config.MenuItems[id] = data
-end)
+Drag & Drop for QBOX Framework, uses OX_Radialmenu
 
-exports('RemoveOption', function(id)
-    Config.MenuItems[id] = nil
-end)
-```
